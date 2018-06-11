@@ -1,4 +1,5 @@
 import React from 'react';
+import { fetchWeather } from '../ajax/api';
 
 
 class Homepage extends React.Component {
@@ -9,6 +10,13 @@ class Homepage extends React.Component {
     };
   }
 
+  componentDidMount() {
+    fetchWeather("New York");
+    fetchWeather("San Francisco");
+    fetchWeather("Toronto");
+    fetchWeather("Austin");
+    fetchWeather("Detroit");
+  }
 
 
 
