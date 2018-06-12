@@ -54,7 +54,8 @@ class Weatherboard extends React.Component {
             offColor='#FF0000'
             onColor='#0000FF'
             checkedIcon={<span className='celsius'>°C</span>}
-            uncheckedIcon={<span className='fahrenheit'>°F</span>} />
+            uncheckedIcon={<span className='fahrenheit'>°F</span>}
+          />
           {items}
         </div>
       );
