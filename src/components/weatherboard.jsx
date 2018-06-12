@@ -43,7 +43,7 @@ class Weatherboard extends React.Component {
     if (this.state.data) {
       const items = this.state.data.list.map( city => {
         return (
-          <WeatherboardItem city={city} key={city.id}/>
+          <WeatherboardItem units={this.state.checked ? " °C" : " °F"} city={city} key={city.id}/>
         );
       });
       return (
