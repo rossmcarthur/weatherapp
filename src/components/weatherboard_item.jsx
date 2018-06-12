@@ -12,7 +12,6 @@ const WeatherboardItem = ({city}) => {
 
     </div>
   )
-
 }
 
 export default WeatherboardItem;
