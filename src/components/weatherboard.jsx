@@ -59,7 +59,7 @@ class Weatherboard extends React.Component {
               className='unit-switch'
               checked={this.state.checked}
               onChange={this.handleUnits}
-              offColor='#FF0000'
+              offColor='#FC5457'
               onColor='#97D0F3'
               checkedIcon={<span className='unit'>°C</span>}
               uncheckedIcon={<span className='unit'>°F</span>}

@@ -86,12 +86,28 @@ html {
 
 .temps {
   display: flex;
-  justify-content: space-around;
-  height: 35px;
+  justify-content: center;
 }
 
-.low-high {
+.low-temp {
   display: flex;
-  justify-content: space-around;
-  font-size: 15px
+  flex-direction: column;
+}
+
+.high-temp {
+  display: flex;
+  flex-direction: column;
+}
+
+.temp-min {
+  margin-right: 20px;
+  height: 5px;
+}
+
+.temp-max {
+  height: 5px;
+}
+
+.low {
+  margin-right: 20px;
 }
