@@ -22,12 +22,14 @@ html {
 }
 
 .homepage {
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 100%
+  width: 100%;
+  background-image: url('./images/atmosphere.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .modal-window {
@@ -46,19 +48,14 @@ html {
   background-color: white;
 }
 
-.what {
-  width: 300px;
-  height: 300px;
-  background-color: white;
-}
-
 .weatherboard-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  border: 2px solid white;
   border-radius: 10px;
-  background-color: white;
-  width: 50%;
+  background-color: transparent;
+  width: 70%;
+  color: white;
 }
 
 .switch-container {
@@ -83,5 +80,18 @@ html {
 }
 
 .weatherboard-item {
+  text-align: center;
   cursor: pointer;
+}
+
+.temps {
+  display: flex;
+  justify-content: space-around;
+  height: 35px;
+}
+
+.low-high {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px
 }
