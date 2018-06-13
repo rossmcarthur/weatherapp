@@ -1,26 +1,21 @@
 import React from 'react';
+import Show from './show';
 
-class Modal extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  stopPropagation(e) {
+const Modal = ({ city, closeModal }) =>  {
+  const stopPropagation = (e) => {
     e.stopPropagation();
   }
 
-  render() {
-    if (this.props.city) {
-      return(
-        <div className='modal-window' onClick={this.props.closeModal}>
-          <div onClick={this.stopPropagation} className="modal-conatiner">
-            <p>{this.props.city.name}</p>
-          </div>
+  if (city) {
+    return(
+      <div className='modal-window' onClick={closeModal}>
+        <div onClick={stopPropagation} className="modal-container">
+          <Show city={city} />
         </div>
-      );
-    } else {
-      return null;
-    }
+      </div>
+    );
+  } else {
+    return null;
   }
 }
 

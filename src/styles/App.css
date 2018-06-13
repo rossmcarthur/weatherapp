@@ -21,6 +21,8 @@ html {
   width: 100%;
 }
 
+/* Homepage Component */
+
 .homepage {
   display: flex;
   justify-content: center;
@@ -43,10 +45,14 @@ html {
   overflow: scroll;
 }
 
-.modal-conatiner {
-  margin: 40px auto auto auto;
-  background-color: white;
+.modal-container {
+  margin: auto;
+  background-color: #47A1EC;
+  color: white;
+  border-radius: 10px;
 }
+
+/* Weatherboard Component */
 
 .weatherboard-container {
   display: flex;
@@ -73,11 +79,12 @@ html {
   color: white;
   padding-right: 2;
 }
-
 .weatherboard-index {
   display: flex;
   justify-content: space-around;
 }
+
+/* WeatherboardItem Component */
 
 .weatherboard-item {
   text-align: center;
@@ -110,4 +117,37 @@ html {
 
 .low {
   margin-right: 20px;
+}
+
+/* Show Component */
+
+.show-switch-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ForecastContainer Component */
+
+.forecast-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-item {
+  margin: 20px;
+}
+
+.forecast-title {
+  margin-bottom: 0;
+  margin-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.forecast-day {
+  margin-bottom: 0;
+}
+
+.forecast-date {
+  margin-top: 5px;
 }
