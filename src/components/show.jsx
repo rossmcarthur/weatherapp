@@ -58,13 +58,16 @@ class Show extends React.Component {
     const month = date.getMonth() < 10 ? "0" + date.getMonth() : date.getMonth();
     const time = date.getHours() + ":" + (date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes());
     const units = this.state.checked ? "°C" : "°F";
-    const fiveDay = this.state.forecast.list.slice(0, 5);
+    const fiveDay = [];
+    for(let i = 7; i < this.state.forecast.list.length; i+= 8) {
+      const day = this.state.forecast.list[i];
+      fiveDay.push(day);
+    }
     const degToCompass = num => {
       const val = Math.floor((num / 45) + 0.5);
       const dir = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"];
       return dir[(val % 8)];
     };
-    debugger
     const forecastContainer = fiveDay.map( (day, i) => {
       return (
           <ForecastItem

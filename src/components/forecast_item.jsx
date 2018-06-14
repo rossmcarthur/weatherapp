@@ -19,8 +19,8 @@ const ForecastItem = ({day, units}) => {
         <h3 className='forecast-date'>{month}/{date.getDate()}</h3>
         <img src={`http://openweathermap.org/img/w/${day.weather[0].icon}.png`} alt='icon' />
         <h3 className='forecast-description'>{day.weather[0].description[0].toUpperCase() + day.weather[0].description.slice(1)}</h3>
-        <h1>{parseInt(day.main.temp_max, 10)} {units}</h1>
-        <h2>{parseInt(day.main.temp_min, 10)} {units}</h2>
+        <h1 className='forecast-max-temp'>{parseInt(day.main.temp_max, 10)} {units}</h1>
+        <h2 clasName='forecast-min-temp'>{parseInt(day.main.temp_min, 10)} {units}</h2>
       </div>
     );
 }

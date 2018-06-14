@@ -280,8 +280,7 @@ html {
 }
 
 .forecast-title {
-  margin-bottom: 0;
-  margin-left: 15px;
+  margin: 15px 0 0 15px;
   display: flex;
   justify-content: flex-start;
   font-size: 30px;
@@ -300,4 +299,258 @@ html {
 .forecast-description {
   margin-top: 0;
   font-weight: 200;
+}
+
+/* Media Queries */
+
+@media (max-width: 1275px) {
+  .item-name {
+    font-size: 25px;
+  }
+
+  .item-description {
+    font-size: 15px;
+  }
+
+  .current-temp {
+    font-size: 25px;
+  }
+
+  .current {
+    font-size: 15px;
+  }
+
+  .temp-min {
+    font-size: 15px
+  }
+
+  .temp-max {
+    font-size: 15px;
+  }
+
+  .low {
+    font-size: 10px;
+  }
+
+  .high {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .item-name {
+    font-size: 20px;
+  }
+
+  .item-description {
+    font-size: 12px;
+  }
+
+  .current-temp {
+    font-size: 20px;
+  }
+
+  .current {
+    font-size: 12px;
+  }
+
+  .temp-min {
+    font-size: 12px
+  }
+
+  .temp-max {
+    font-size: 12px;
+  }
+
+  .low {
+    font-size: 8px;
+  }
+
+  .high {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 725px) {
+  .item-name {
+    font-size: 15px;
+  }
+
+  .item-description {
+    font-size: 9px;
+  }
+
+  .current-temp {
+    font-size: 15px;
+  }
+
+  .current {
+    font-size: 9px;
+  }
+
+  .temp-min {
+    font-size: 9px
+  }
+
+  .temp-max {
+    font-size: 9px;
+  }
+
+  .low {
+    font-size: 6px;
+  }
+
+  .high {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 650px) {
+  .show-title {
+    font-size: 30px;
+  }
+
+  .show-update {
+    font-size: 10px;
+  }
+
+  .show-current-description {
+    font-size: 15px;
+  }
+
+  .wind {
+    font-size: 15px;
+  }
+
+  .wind-speed {
+    font-size: 15px;
+  }
+
+  .deg{
+    font-size: 8px;
+  }
+
+  .mph {
+    font-size: 8px;
+  }
+
+  .humidity {
+    font-size: 15px;
+  }
+
+  .humidity-content {
+    font-size: 15px;
+  }
+
+  .pressure {
+    font-size: 15px;
+  }
+
+  .pressure-measurement {
+    font-size: 15px;
+  }
+
+  .pressure-pascals {
+    font-size: 10px;
+  }
+
+  .cloud-coverage {
+    font-size: 15px;
+  }
+
+  .cloud-per {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .forecast-title {
+    font-size: 19px;
+  }
+
+  .forecast-max-temp {
+    font-size: 15px;
+  }
+
+  .forecast-min-temp {
+    font-size: 15px;
+  }
+
+  .forecast-description {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .show-title {
+    font-size: 20px;
+  }
+
+  .show-update {
+    font-size: 10px;
+  }
+
+  .show-current-description {
+    font-size: 10px;
+  }
+
+  .wind {
+    font-size: 10px;
+  }
+
+  .wind-speed {
+    font-size: 10px;
+  }
+
+  .deg{
+    font-size: 5px;
+  }
+
+  .mph {
+    font-size: 5px;
+  }
+
+  .humidity {
+    font-size: 10px;
+  }
+
+  .humidity-content {
+    font-size: 10px;
+  }
+
+  .pressure {
+    font-size: 10px;
+  }
+
+  .pressure-measurement {
+    font-size: 10px;
+  }
+
+  .pressure-pascals {
+    font-size: 8px;
+  }
+
+  .cloud-coverage {
+    font-size: 10px;
+  }
+
+  .cloud-per {
+    margin: 0;
+    font-size: 10px;
+  }
+
+  .forecast-title {
+    font-size: 15px;
+  }
+
+  .forecast-max-temp {
+    font-size: 10px;
+  }
+
+  .forecast-min-temp {
+    font-size: 10px;
+  }
+
+  .forecast-description {
+    font-size: 10px;
+  }
 }
