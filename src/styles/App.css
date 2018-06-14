@@ -21,7 +21,7 @@ html {
   width: 100%;
 }
 
-/* Homepage Component */
+/* App Component */
 
 .app-page {
   height: 100%;
@@ -298,7 +298,7 @@ html {
   margin: 0;
   font-size: 25px;
 }
-/* ForecastContainer Component */
+/* Five Day Forecast */
 
 .forecast-container {
   display: flex;
