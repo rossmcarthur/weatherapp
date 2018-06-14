@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import Homepage from './home';
+import React from 'react';
 import "../styles/App.css";
 import logo from '../styles/images/logo.png';
 import Weatherboard from './weatherboard';
