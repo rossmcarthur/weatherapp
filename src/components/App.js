@@ -26,13 +26,13 @@ class App extends React.Component {
   render() {
     return (
       <div className='app-page'>
+        <Modal city={this.state.city} closeModal={this.closeModal}/>
         <div className='homepage-header'>
           <img className='logo' src={logo} alt='logo'/>
           <h1 className='title'>Weather Vane</h1>
         </div>
         <div className='homepage'>
-          <Modal city={this.state.city} closeModal={this.closeModal}/>
-            <Weatherboard showModal={this.showModal}/>
+          <Weatherboard showModal={this.showModal}/>
         </div>
       </div>
     );
