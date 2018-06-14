@@ -528,10 +528,6 @@ html {
     font-size: 15px;
   }
 
-  .forecast-min-temp {
-    font-size: 15px;
-  }
-
   .forecast-description {
     font-size: 15px;
   }
@@ -600,10 +596,6 @@ html {
   }
 
   .forecast-max-temp {
-    font-size: 10px;
-  }
-
-  .forecast-min-temp {
     font-size: 10px;
   }
 
