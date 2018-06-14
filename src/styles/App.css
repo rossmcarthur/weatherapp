@@ -121,11 +121,152 @@ html {
 
 /* Show Component */
 
+.show-container {
+  padding: 15px;
+}
+
 .show-switch-container {
   display: flex;
   justify-content: flex-end;
+  margin: 10px 0 0 0;
+  padding-right: 5px;
 }
 
+.show-title {
+  margin: 0 0 0 20px;
+  font-size: 50px;
+}
+
+.show-update {
+  margin: 0 10px 0 22px;
+  font-weight: 100;
+
+}
+
+.show-current-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.show-current {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 10px 0;
+  height: 50px;
+}
+
+.show-current-icon {
+  margin: 15px 0 0px 10px;
+  height: 74px;
+  width: 74px;
+}
+
+.show-current-temp {
+  margin-left: 22px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: yellow;
+  font-size: 60px;
+}
+
+.show-current-units {
+  font-size: 25px;
+  height: 60px;
+  margin-top: 15px;
+  color: yellow;
+}
+
+.show-current-description {
+  margin: 0 0 15px 22px;
+  font-weight: 500;
+}
+
+.show-current-details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wind {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.wind-speed {
+  font-size: 25px;
+  margin: 0 3px 0 0;
+}
+.wind-content {
+  display: flex;
+}
+
+.wind-units {
+  display: flex;
+  flex-direction: column;
+}
+
+.deg{
+  font-size: 13px;
+  margin: 0;
+}
+
+.mph {
+  font-size: 10px;
+  margin: 0;
+}
+
+.humidity-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.humidity {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.humidity-content {
+  margin: 0;
+  font-size: 25px;
+}
+
+.pressure {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.pressure-content {
+  display: flex;
+  margin: 0;
+}
+
+.pressure-measurement {
+  font-size: 25px;
+  margin: 0 5px 0 0;
+}
+
+.pressure-pascals {
+  font-size: 15px;
+  margin: 0;
+}
+
+.cloud-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cloud-coverage {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0
+}
+
+.cloud-per {
+  margin: 0;
+  font-size: 25px;
+}
 /* ForecastContainer Component */
 
 .forecast-container {
@@ -134,20 +275,29 @@ html {
 }
 
 .forecast-item {
-  margin: 20px;
+  margin: 10px 20px 0 20px;;
+  text-align: center;
 }
 
 .forecast-title {
   margin-bottom: 0;
-  margin-left: 30px;
+  margin-left: 15px;
   display: flex;
   justify-content: flex-start;
+  font-size: 30px;
 }
 
 .forecast-day {
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .forecast-date {
   margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.forecast-description {
+  margin-top: 0;
+  font-weight: 200;
 }
