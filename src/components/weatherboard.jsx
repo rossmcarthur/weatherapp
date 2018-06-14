@@ -16,7 +16,7 @@ class Weatherboard extends React.Component {
 
   componentDidMount() {
     const units = this.state.checked ? "metric" : "imperial";
-    fetchWeather("5128638,6167865,5391959,4254010,4990729", units)
+    fetchWeather("5128638,5809844,6167865,5391959,4254010", units)
     .then( data => {
       return data.json();
     }).then( data => {
